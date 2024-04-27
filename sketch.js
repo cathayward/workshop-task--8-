@@ -4,6 +4,7 @@ let img;
 let searchObject;
 let searchObjectPath = "https://collectionapi.metmuseum.org/public/collection/v1/objects/";
 let inputBox;
+let objectJSON;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -53,4 +54,12 @@ function drawImage() {
   }
   
   image(img, windowWidth/2, windowHeight/2, scaledWidth, scaledHeight);
+
+  // Displaying artist, year, and name of the artwork
+  textAlign(CENTER);
+  textSize(12);
+  fill(0);
+  text("Title: " + objectJSON.title, width/2, height/2 + scaledHeight/2 + 60);
+  text("Artist: " + objectJSON.artistDisplayName, width/2, height/2 + scaledHeight/2 + 20);
+  text("Year: " + objectJSON.objectEndDate, width/2, height/2 + scaledHeight/2 + 40);
 }
