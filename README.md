@@ -1,7 +1,7 @@
 # workshop-task--8-
 
 ### notes:
-website link: 
+website link: https://cathayward.github.io/workshop-task--8-/
 - for this exercise I wanted to create a search engine within my sketch that will generate images provided by the MET Museum API.
 - I found an example of a use of this API online at: https://editor.p5js.org/sebmorales/sketches/iJ-VgMk9o
     - finding this really helped me out when it came to learning how this specific API worked due to the overwhelming number of outputs that could be given as data.
