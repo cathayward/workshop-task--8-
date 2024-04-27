@@ -13,3 +13,4 @@ website link: https://cathayward.github.io/workshop-task--8-/
 - One thing I have noted is that the inputs do take a long time to load, which is probably due to the fact that some search queries don’t produce an image result and thus must run again in order to find an image to draw
 - I tried to look up some different ways this could run faster but it seems that this is the best option that I can think of.
 - If I were to further this, I would look into adding text about the artwork and it’s artist to the side so that it is easy to look up and find an artwork that you may like
+- I also want to come back and fix the issue I'm having where vertical images are too big and end up taking up too much of the screen
