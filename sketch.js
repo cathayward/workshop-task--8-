@@ -42,7 +42,7 @@ function drawImage() {
   background(220);
   
   let scaledWidth, scaledHeight;
-  if (img.width > img.height) {
+  if (img.width >= img.height) {
     let aspect = img.width / img.height;
     scaledWidth = windowWidth / 2;
     scaledHeight = scaledWidth / aspect;
