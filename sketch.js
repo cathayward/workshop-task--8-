@@ -39,10 +39,18 @@ function showContent() {
 }
 
 function drawImage() {
-  clear();
-  background(220)
-  let aspect = img.width / img.height;
-  let scaledWidth = windowWidth / 2;
-  let scaledHeight = scaledWidth / aspect;
-  image(img, (windowWidth/2), (windowHeight/2), scaledWidth, scaledHeight);
+  background(220);
+  
+  let scaledWidth, scaledHeight;
+  if (img.width > img.height) {
+    let aspect = img.width / img.height;
+    scaledWidth = windowWidth / 2;
+    scaledHeight = scaledWidth / aspect;
+  } else {
+    let aspect = img.height / img.width;
+    scaledHeight = windowHeight / 2;
+    scaledWidth = scaledHeight / aspect;
+  }
+  
+  image(img, windowWidth/2, windowHeight/2, scaledWidth, scaledHeight);
 }
