@@ -15,3 +15,4 @@ website link: https://cathayward.github.io/workshop-task--8-/
 - If I were to further this, I would look into adding text about the artwork and it’s artist to the side so that it is easy to look up and find an artwork that you may like
 - I also want to come back and fix the issue I'm having where vertical images are too big and end up taking up too much of the screen
     - I have since fixed this issue by adding an if / else statement to the drawImage function.
+- I will say this page does require a little bit of patience, so try not to pressthe 'show artwork' button too many times to allow it the time needed to  search for a valid image
